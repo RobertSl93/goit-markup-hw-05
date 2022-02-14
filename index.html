@@ -71,7 +71,7 @@
 				<div class="hero-background-container">
 				<div class="container">
 					<h1 class="hero-title">efektywne rozwiązania dla waszego biznesu</h1>
-					<button type="button" class="hero-button">Zamów usługe</button>
+					<button type="button" class="hero-button" data-modal-open>Zamów usługe</button>
 				</div>
 				</div>
 			</section>
@@ -379,11 +379,22 @@
 						></a>
 						<a class="social-links-link social-links-link-dark-theme" href="https://pl.linkedin.com/"
 							><svg class="social-links-icon">
-								<use href="images/icons.svg#icon-linkedin"></use></svg
-						></a>
+								<use href="images/icons.svg#icon-linkedin"></use></svg>
+							</a>
 					</div>
 				</div>
 			</div>
 		</footer>
+		<!-- BACKDROP -->
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+				<button type="button" class="close-btn" data-modal-close>
+					<svg class="close-icon">
+						<use href="./images/icons.svg#icon-close"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<script src="/modal.js"></script>
 	</body>
 </html>
